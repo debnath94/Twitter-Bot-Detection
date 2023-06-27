@@ -67,11 +67,10 @@ def main():
         prediction = np.round(prediction).flatten()
 
         if prediction == 0:
-            st.write('The user is Human. ' + emoji.emojize(":man:", use_aliases=True))
+            st.write('The user is Human. ' + emoji.emojize("\U0001F468", use_aliases=False))
         else:
             st.write('The user is a bot. ' + emoji.emojize(":robot_face:", use_aliases=True))
 
 # Run the app
 if __name__ == '__main__':
     main()
-
