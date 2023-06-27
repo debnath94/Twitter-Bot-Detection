@@ -2,3 +2,4 @@ scikit-learn
 nltk
 tensorflow
 streamlit
+emoji
