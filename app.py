@@ -15,6 +15,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 import pickle
+import emoji  # Import the emoji library
 nltk.download('stopwords')
 nltk.download('wordnet')
 
