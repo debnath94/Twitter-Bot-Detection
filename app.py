@@ -16,6 +16,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 import pickle
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 # Load the saved model and tokenizer
 model = load_model("T.h1")
